@@ -1,0 +1,13 @@
+<h2>Edit  Task</h2>
+<div>
+  <%= simple_form_for @task do |f| %>
+    <%= f.input :title, required: true %>
+    <%= f.input :details %>
+    <%= f.input :completed, as: :boolean, label: "Completed?" %>
+    <div class="actions">
+      <%= f.submit "UpdateTask", class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to '<i class="fa-solid fa-rotate-left"></i> Back to list'.html_safe, tasks_path %>

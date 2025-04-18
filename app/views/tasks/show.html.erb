@@ -1,0 +1,15 @@
+<h1>Task Details</h1>
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <p class="mb-0"><%= @task.title %></p>
+  <%= link_to '<i class="fa-solid fa-pen"></i> Edit this task'.html_safe, edit_task_path(@task), class: 'btn btn-light' %>
+</div>
+<div class="card  bg-light text-secondary w-75 mb-3">
+  <div class="card-body">
+    <p class="card-text"><%= @task.details %></p>
+  </div>
+</div>
+<p>
+  <input type="checkbox" <%= 'checked' if @task.completed %>>
+  <%= @task.completed ? "This task is completed" : "The task is not completed yet" %>
+</p>
+<%= link_to '<i class="fa-solid fa-rotate-left"></i> Back to list'.html_safe, tasks_path %>
