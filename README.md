@@ -7,10 +7,8 @@
 - Ruby on Rails 8.0.2
 
 ### FrontEnd
-- Bootstrap  
-- Font Awesome
+- Bootstrap  CDN
+- Font Awesome CDN
 
 ## Gems
-- "bootstrap", "~> 5.3", ">= 5.3.3"
-- "sassc-rails"
 - "simple_form"
