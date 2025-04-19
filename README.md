@@ -1,14 +1,22 @@
-# README
-**A simple ToDo list Rails applications with basic CRUD functionality where a user can create, view, edit, and delete a task.**
+# ToDo List App
 
-**Tech stack used:**
+A simple Rails application that provides basic CRUD functionality for managing a to-do list. Users can create, view, edit, and delete tasks.
 
-### BackEnd
+## Tech Stack Used
+
+### BackEnd:
 - Ruby on Rails 8.0.2
 
-### FrontEnd
-- Bootstrap  CDN
+### FrontEnd:
+- Bootstrap CDN
 - Font Awesome CDN
 
-## Gems
-- "simple_form"
+## Gems:
+- **"simple_form"** (for easy form generation)
+
+## Features:
+- **Create, View, Edit, and Delete Tasks**  
+  Users can add new tasks, view them, make changes, and delete tasks as needed.
+
+- **Responsive UI**  
+  Built with **Bootstrap** for a responsive and user-friendly interface.
